@@ -1,0 +1,58 @@
+name: "New Task"
+description: "Suggest the next step for this project."
+title: "New task"
+labels: ["enhancement"]
+assignees: []
+body:
+
+  - type: textarea
+    id: prerequisite_tasks
+    attributes:
+      label: "⬅️ Prerequisite Tasks"
+      description: "Reference earlier issues/PRs that must be completed first (e.g., `#1`, `owner/repo#12`, or full URLs). Optional."
+      placeholder: |
+        - #1
+        - #2
+
+  - type: textarea
+    id: required_files
+    attributes:
+      label: "📂 Required Files"
+      description: "List filenames or paths required for this task (one per line). Optional."
+      placeholder: |
+        - index.html
+        - styles.css
+
+  - type: textarea
+    id: task_list
+    attributes:
+      label: "✅ Task List"
+      description: "Use markdown checkboxes for subtasks. Optional."
+      placeholder: |
+        - [ ] Subtask 1
+        - [ ] Subtask 2
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: "💯 Acceptance Criteria"
+      description: "Minimum requirements for the task to be considered Done. Optional."
+      placeholder: |
+        - [ ] Criteria 1
+        - [ ] Criteria 2
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "📝 Notes"
+      description: "Extra context, constraints, or notes for reviewers. Optional."
+      placeholder: ""
+
+  - type: textarea
+    id: references
+    attributes:
+      label: "🔗 References"
+      description: "Helpful links, docs, or videos related to this task. Optional."
+      placeholder: |
+        - [Methods and functions that can be used](link)
+        - [Video about this task](link)
