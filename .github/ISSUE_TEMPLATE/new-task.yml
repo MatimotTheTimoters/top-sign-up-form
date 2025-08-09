@@ -9,9 +9,6 @@ body:
     attributes:
       label: "⬅️ Prerequisite Tasks"
       description: "Reference earlier issues/PRs that must be completed first (e.g., `#1`, `owner/repo#12`, or full URLs). Optional."
-      placeholder: |
-        - #1
-        - #2
     validations:
       required: false
 
@@ -20,9 +17,6 @@ body:
     attributes:
       label: "📂 Required Files"
       description: "List filenames or paths required for this task (one per line). Optional."
-      placeholder: |
-        - index.html
-        - styles.css
     validations:
       required: false
 
@@ -31,9 +25,6 @@ body:
     attributes:
       label: "✅ Task List"
       description: "Use markdown checkboxes for subtasks. Optional."
-      placeholder: |
-        - [ ] Subtask 1
-        - [ ] Subtask 2
     validations:
       required: false
 
@@ -42,9 +33,6 @@ body:
     attributes:
       label: "💯 Acceptance Criteria"
       description: "Minimum requirements for the task to be considered Done. Optional."
-      placeholder: |
-        - [ ] Criteria 1
-        - [ ] Criteria 2
     validations:
       required: false
 
@@ -53,7 +41,6 @@ body:
     attributes:
       label: "📝 Notes"
       description: "Extra context, constraints, or notes for reviewers. Optional."
-      placeholder: ""
     validations:
       required: false
 
@@ -62,8 +49,5 @@ body:
     attributes:
       label: "🔗 References"
       description: "Helpful links, docs, or videos related to this task. Optional."
-      placeholder: |
-        - [Methods and functions that can be used](link)
-        - [Video about this task](link)
     validations:
       required: false
