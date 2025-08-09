@@ -4,7 +4,6 @@ title: "New task"
 labels: ["enhancement"]
 assignees: []
 body:
-
   - type: textarea
     id: prerequisite_tasks
     attributes:
@@ -13,6 +12,8 @@ body:
       placeholder: |
         - #1
         - #2
+    validations:
+      required: false
 
   - type: textarea
     id: required_files
@@ -22,6 +23,8 @@ body:
       placeholder: |
         - index.html
         - styles.css
+    validations:
+      required: false
 
   - type: textarea
     id: task_list
@@ -31,6 +34,8 @@ body:
       placeholder: |
         - [ ] Subtask 1
         - [ ] Subtask 2
+    validations:
+      required: false
 
   - type: textarea
     id: acceptance_criteria
@@ -40,6 +45,8 @@ body:
       placeholder: |
         - [ ] Criteria 1
         - [ ] Criteria 2
+    validations:
+      required: false
 
   - type: textarea
     id: notes
@@ -47,6 +54,8 @@ body:
       label: "📝 Notes"
       description: "Extra context, constraints, or notes for reviewers. Optional."
       placeholder: ""
+    validations:
+      required: false
 
   - type: textarea
     id: references
@@ -56,3 +65,5 @@ body:
       placeholder: |
         - [Methods and functions that can be used](link)
         - [Video about this task](link)
+    validations:
+      required: false
