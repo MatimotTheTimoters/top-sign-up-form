@@ -1,0 +1,27 @@
+1. Initialize project repository — Create a local git repository named `odin-signup` containing an initial commit and a short plan file; final output: a git repo with `README.md` (project title + brief plan) and an initial commit recorded.
+
+2. Scaffold project files — Add and link the core files so the project is ready to open in a browser; final output: `index.html`, `styles.css` (or `css/styles.css`), an `assets/` folder structure (`images/`, `fonts/`, `icons/`), and `README.md` referencing the file structure.
+
+3. Gather and credit visual assets — Select, download, and store the background image, Odin logo (SVG preferred), and chosen logo font (or web font links); final output: image file(s) in `assets/images/`, logo in `assets/icons/`, font files or font link recorded, and image credit added to `README.md` or `CREDITS.md`.
+
+4. Choose and prepare typography — Decide body and logo fonts, add web/font imports or local font files, and confirm sizes and weights for headings and UI text; final output: font resources available and documented so CSS can import them cleanly.
+
+5. Build semantic HTML shell and layout containers — Create the high-level semantic structure in `index.html` (main, aside `.image-sidebar`, section `.signup-area`, header/copy area, and a form wrapper); final output: an HTML file with the complete page scaffolding and placeholder content linked to `styles.css`.
+
+6. Finalize form markup with accessible labels — Implement the full form markup including labeled inputs for first name, last name, email, phone, password, confirm password, a submit button, and supporting text; final output: a well-structured `<form>` element in `index.html` with appropriate `id`, `name`, `type`, `required`, and `autocomplete` attributes for each field.
+
+7. Define CSS variables and global base styles — Establish root variables (colors, spacing, radii), reset/box-sizing, body font, and global typography rules; final output: `styles.css` containing root variables and consistent baseline styles for the entire page.
+
+8. Implement the two-column desktop layout — Create the desktop-only layout where the image sidebar occupies a fixed column and the signup area fills the remaining space, including the semi-transparent logo backdrop; final output: a stable two-column layout in CSS that matches the reference proportions at the target viewport width.
+
+9. Apply sidebar image and logo styling — Style the image-sidebar to use the chosen background image with `cover` positioning, add the semi-transparent overlay behind the logo, and position the logo to match the design; final output: visually correct image sidebar with a readable logo overlay.
+
+10. Style the signup-area container and visual hierarchy — Add white panel background, inner spacing, headings, copy styles, and the subtle divider/shadow between the intro text and the form area; final output: a signup panel whose typography and spacing mirror the reference and clearly separates content sections.
+
+11. Implement form control visuals and states — Style inputs and labels (default border `#E5E7EB`), create `:focus` styles with blue border and subtle box-shadow, and create `:invalid` styles (red border) for invalid password/email states; final output: inputs that visually respond to focus and invalid states per the assignment.
+
+12. Style primary button and microcopy — Create the `Create Account` button using the accent color `#596D48`, hover and active effects, and style supporting links/text (e.g., “Already have an account? Log in”); final output: a visually prominent, accessible submit button and consistent microcopy styles.
+
+13. Add accessibility attributes and UX polish — Ensure labels are associated, add `aria-describedby` where needed, set logical tab order and `autocomplete` attributes, and verify color contrast; final output: an accessible, keyboard-navigable form with improved UX.
+
+14. Test, document, and finalize deliverables — Manually test the desktop layout and HTML5 validation, take a final screenshot, update `README.md` with credits and instructions, commit all changes with clear messages, and optionally push to a remote repo; final output: tested project directory ready for submission with commits, documentation, and a preview screenshot.
