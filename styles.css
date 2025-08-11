@@ -31,6 +31,12 @@
 :root {
     /* fonts */
     --logo-font: "NorseBold";
+    --logo-font-size: 3rem;
+
     --body-font: "SinkinSansMedium";
-    --form-label-font: "SinkinSansBold"; 
+    --body-font-size: 1rem;
+
+    --form-label-font: "SinkinSansBold";
+    --form-label-font-size: 0.7rem;
+
 }
