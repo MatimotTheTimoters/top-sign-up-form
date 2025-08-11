@@ -1,7 +1,7 @@
 @font-face {
     font-family: "SinkinSansMedium";
     src: 
-        url("assets/fonts/SinkinSans-500Medium.woff") format("woff")
+        url("assets/fonts/SinkinSans-500Medium.woff") format("woff"),
         url("assets/fonts/SinkinSans-500Medium.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
@@ -11,9 +11,26 @@
 @font-face {
     font-family: "SinkinSansBold";
     src: 
-        url("assets/fonts/SinkinSans-700Bold.woff") format("woff")
+        url("assets/fonts/SinkinSans-700Bold.woff") format("woff"),
         url("assets/fonts/SinkinSans-700Bold.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+@font-face {
+    font-family: "NorseBold";
+    src: 
+        url("assets/fonts/Norse-Bold.woff") format("woff"),
+        url("assets/fonts/Norse-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    /* fonts */
+    --logo-font: "NorseBold";
+    --body-font: "SinkinSansMedium";
+    --form-label-font: "SinkinSansBold"; 
 }
