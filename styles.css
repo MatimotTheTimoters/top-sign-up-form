@@ -29,7 +29,7 @@
 }
 
 :root {
-    /* fonts */
+    /* Fonts */
     --logo-font: "NorseBold";
     --logo-font-size: 2rem;
 
@@ -39,6 +39,28 @@
     --form-label-font: "SinkinSansBold";
     --form-label-font-size: 1rem;
 
+    /* Color palette */
+    --color-accent: #596D48; /* Create Account button, Login link */
+    --color-accent-foreground: #ffffff; /* Text on accent */
+
+    --color-bg: #f7f7f7;
+    --color-form-panel: #ffffff;
+    --color-form-border: #E5E7EB;
+
+    --color-primary-text: #111827;
+
+    --color-error: #dc2626;
+    --color-focus: #2563eb;
+
+    /* Spacing scale */
+    --space-sm: 12px;
+    --space-md: 16px;
+    --space-lg: 24px;
+
+    /* Border radii */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
 }
 
 /* CSS Reset */
