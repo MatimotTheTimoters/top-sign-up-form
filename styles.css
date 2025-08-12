@@ -31,12 +31,56 @@
 :root {
     /* fonts */
     --logo-font: "NorseBold";
-    --logo-font-size: 3rem;
+    --logo-font-size: 2rem;
 
     --body-font: "SinkinSansMedium";
-    --body-font-size: 1rem;
+    --body-font-size: 1.5rem;
 
     --form-label-font: "SinkinSansBold";
-    --form-label-font-size: 0.7rem;
+    --form-label-font-size: 1rem;
 
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: var(--form-label-font);
+    font-size: var(--form-label-font-size);
+}
+
+p, h1, h2, h3, h4, h5, h6 { /* Avoid text container overflow */
+    overflow-wrap: break-word;
+}
+
+p { /* Prevent from ending with just one word or character */
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    text-wrap: balance;
 }
