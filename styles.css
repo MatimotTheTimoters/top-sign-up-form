@@ -30,14 +30,20 @@
 
 :root {
     /* Fonts */
-    --logo-font: "NorseBold";
-    --logo-font-size: 2rem;
+    --font-logo: "NorseBold";
+    --font-size-logo: clamp(2, 3, 4);
 
-    --body-font: "SinkinSansMedium";
-    --body-font-size: 1.5rem;
+    --font-header: "SinkinSansBold";
+    --font-size-header: clamp(1.7, 2, 2.3);
 
-    --form-label-font: "SinkinSansBold";
-    --form-label-font-size: 1rem;
+    --font-body: "SinkinSansMedium";
+    --font-size-body: clamp(1, 1.3, 1.6);
+
+    --font-form-label: "SinkinSansBold";
+    --font-size-form-label: clamp(0.7, 1, 1.3);
+
+    --font-cite: var(--font-body);
+    --font-size-cite: clamp(0.5, 0.8, 1.1);
 
     /* Color palette */
     --color-accent: #596D48; /* Create Account button, Login link */
@@ -105,4 +111,26 @@ p { /* Prevent from ending with just one word or character */
 
 h1, h2, h3, h4, h5, h6 { 
     text-wrap: balance;
+}
+
+.image-sidebar > figure > figcaption {
+    font-style: var(--font-logo);
+    font-size: var(--font-size-logo)
+}
+
+.image-sidebar > cite {
+    font-style: var(--font-cite);
+    font-size: var(--font-size-cite)
+}
+
+.signup-area > .header-text,
+.signup-form > fieldset > h3 {
+    font-style: var(--font-header);
+    font-size: var(--font-size-header);
+}
+
+.form-field-container label,
+.form-field-container input {
+    font-style: var(--font-form-label);
+    font-size: var(var(--font-size-form-label));
 }
