@@ -82,7 +82,6 @@
 
 body {
     line-height: 1.5;
-
 }
 
 img,
@@ -171,4 +170,21 @@ button {
 .logo-container {
     background-color: #000000;
     opacity: 0.9;
+}
+
+body {
+    min-height: 100vh;
+}
+
+form {
+    min-width: 100vw;
+}
+
+.logo-container {
+    max-width: 100%;
+}
+
+.form-field-container,
+.header-text {
+    max-width: 70%;
 }
