@@ -114,23 +114,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image-sidebar > figure > figcaption {
-    font-style: var(--font-logo);
-    font-size: var(--font-size-logo)
+    font-family: var(--font-logo);
+    font-size: var(--font-size-logo);
 }
 
 .image-sidebar > cite {
-    font-style: var(--font-cite);
-    font-size: var(--font-size-cite)
+    font-family: var(--font-cite);
+    font-size: var(--font-size-cite);
 }
 
 .signup-area > .header-text,
 .signup-form > fieldset > h3 {
-    font-style: var(--font-header);
+    font-family: var(--font-header);
     font-size: var(--font-size-header);
 }
 
 .form-field-container label,
 .form-field-container input {
-    font-style: var(--font-form-label);
+    font-family: var(--font-form-label);
     font-size: var(var(--font-size-form-label));
 }
